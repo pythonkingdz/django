@@ -1,0 +1,34 @@
+.bg-light{
+  background:#7f3888!important;
+}
+.navbar-light .navbar-brand{
+    color: #1377e0;
+    font-size : 50px;
+    border: 2px solid rgba(217, 224, 114, 0.98);
+    border-radius:40px;
+    width: 150px;
+    height: 90px;
+    font-family: "Times New Roman", Times, serif;
+    margin-rad
+}
+.navbar-light .navbar-nav .nav-link{
+      color: #f8f9fa;
+      font-size:20px;
+      margin:20px;
+
+}
+
+.col-sm
+{
+   margin-bottom: 2.5px;
+   margin-top: 2.5px;
+ }
+
+.navbar-light .navbar-nav .active>.nav-link,
+ .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+   .navbar-light .navbar-nav .show>.nav-link
+   {
+   color:rgba(217, 224, 114, 0.98);
+
+ }

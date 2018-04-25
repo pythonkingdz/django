@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+ {%  block content %}
+<div class="container">
+
+  <div class="row">
+      {% for i in posts %}
+
+    <div class="col-sm">
+
+     <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="http://stat.homeshop18.com/homeshop18/images/productImages/390/micromax-q409-spark-4g-dual-sim-android-mobile-phone-large_eee35f2ed387b2d5939bd3f45773b9a2.jpg">
+         <div class="card-body">
+           <h5 class="card-title">{{ i.title }}</h5>
+           <p class="card-text">read More....</p>
+           <a href="#" class="btn btn-primary">{{ i.name  }}-{{i.prise}}</a>
+         </div>
+      </div>
+     </div>
+
+       {% endfor %}
+
+  </div>
+</div>
+
+ {% endblock %}

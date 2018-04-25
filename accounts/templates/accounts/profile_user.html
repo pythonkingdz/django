@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<title> profile </title>
+{% endblock %}
+
+{% block content%}
+<div class="container">
+    <h1> Welcome your profile page </h1>
+    {{ user.username }}<br>
+    {{ user.first_name }}<br>
+    {{ user.last_name }}<br>
+    {{ user.email }}
+    <br>
+    <img src="{{ user.userprofile.image.url }}"    width="240" height="200" />
+
+</div>
+{% endblock %}
